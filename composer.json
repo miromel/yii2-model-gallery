@@ -1,5 +1,5 @@
 {
-    "name": "matvik/yii2-model-gallery",
+    "name": "miromel/yii2-model-gallery",
     "description": "This extension implements the behavior and widget for a set of images related to a particular model (product, user, etc.).",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","gallery","images","widget","behavior","ajax","form"],
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "matvik\\modelGallery\\": "src"
+            "miromel\\modelGallery\\": "src"
         }
     }
 }
