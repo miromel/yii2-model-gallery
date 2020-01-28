@@ -18,6 +18,7 @@ class m180329_215546_create_gallery_images_table extends Migration
             'id' => $this->primaryKey()->unsigned(),
             'category' => $this->string(255)->notNull(),
             'item_id' => $this->integer()->unsigned()->notNull(),
+            'item_title' => $this->string(255),
             'priority' => $this->integer()->unsigned()->notNull(),
         ]);
     }
